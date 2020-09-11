@@ -1,0 +1,125 @@
+// 20200905200402
+// https://gadsapi.herokuapp.com/api/skilliq
+
+[
+  {
+    "name": "Perry Oluwatobi",
+    "score": 221,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 278,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 254,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 224,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 165,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 214,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 183,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 206,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 162,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 205,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 207,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 270,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 249,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 295,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 249,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 163,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Oluwatobi",
+    "score": 290,
+    "country": "Nigeria",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Sam",
+    "score": 294,
+    "country": "South Africa",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Perry Zimo",
+    "score": 241,
+    "country": "Tanzania",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  },
+  {
+    "name": "Paul Chenge",
+    "score": 177,
+    "country": "Zimbabwe",
+    "badgeUrl": "https://res.cloudinary.com/mikeattara/image/upload/v1596700835/skill-IQ-trimmed.png"
+  }
+]
