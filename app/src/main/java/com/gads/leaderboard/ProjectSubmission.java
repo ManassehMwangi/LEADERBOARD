@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -54,15 +55,17 @@ public class ProjectSubmission extends AppCompatActivity {
             @Override
             public void onResponse(Call<Submission> call, Response<Submission> response) {
                 if(response.isSuccessful()) {
-                    showResponse(response.body().toString());
-                    Log.i(TAG, "post submitted to API." + response.body().toString());
+                    Toast.makeText(ProjectSubmission.this, "Submitted successfully", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(ProjectSubmission.this, "Error occurred", Toast.LENGTH_SHORT).show();
+
                 }
 
             }
 
             @Override
             public void onFailure(Call<Submission> call, Throwable t) {
-                Log.e(TAG, "Unable to submit post to API.");
+                Toast.makeText(ProjectSubmission.this, "Error occurred", Toast.LENGTH_SHORT).show();
 
             }
 
