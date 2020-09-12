@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import retrofit2.Call;
@@ -20,6 +21,7 @@ public class ProjectSubmission extends AppCompatActivity {
     APIService mAPIService;
     EditText fName, lName, email1, git1;
     Button sub;
+    ProgressBar progress2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,8 @@ public class ProjectSubmission extends AppCompatActivity {
         email1 = findViewById(R.id.textEmail);
         git1 = findViewById(R.id.textGit);
         sub = findViewById(R.id.submit);
+        progress2 = findViewById(R.id.progress);
+        progress2.setVisibility(View.VISIBLE);
 
         mAPIService = ApiUtils.getAPIService();
 
@@ -48,7 +52,9 @@ public class ProjectSubmission extends AppCompatActivity {
             }
 
         });
+
     }
+
 
     public void sendPost(String firstName, String secondName, String email, String git){
         mAPIService.savePost(firstName, secondName, email, git).enqueue(new Callback<Submission>() {
@@ -58,6 +64,7 @@ public class ProjectSubmission extends AppCompatActivity {
                     Toast.makeText(ProjectSubmission.this, "Submitted successfully", Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(ProjectSubmission.this, "Error occurred", Toast.LENGTH_SHORT).show();
+                    progress2.setVisibility(View.GONE);
 
                 }
 
@@ -66,6 +73,7 @@ public class ProjectSubmission extends AppCompatActivity {
             @Override
             public void onFailure(Call<Submission> call, Throwable t) {
                 Toast.makeText(ProjectSubmission.this, "Error occurred", Toast.LENGTH_SHORT).show();
+                progress2.setVisibility(View.GONE);
 
             }
 
@@ -73,11 +81,4 @@ public class ProjectSubmission extends AppCompatActivity {
     }
 
 
-
-//    public void showResponse(String response) {
-//        if(mResponseTv.getVisibility() == View.GONE) {
-//            mResponseTv.setVisibility(View.VISIBLE);
-//        }
-//        mResponseTv.setText(response);
-//    }
 }
